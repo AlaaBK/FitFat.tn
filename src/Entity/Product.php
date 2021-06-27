@@ -7,9 +7,12 @@ use App\Repository\ProductRepository;
 use Doctrine\ORM\Mapping as ORM;
 use ApiPlatform\Core\Annotation\ApiFilter;
 use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 /**
- * @ApiResource()
+ * @ApiResource(
+ *     normalizationContext={"groups"={"product:read"}},
+ *     denormalizationContext={"groups"={"product:write"}})
  * @ORM\Entity(repositoryClass=ProductRepository::class)
  * @ApiFilter(SearchFilter::class, properties={
  *     "nom": "partial",
@@ -23,26 +26,32 @@ class Product
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
+     * @Groups("product:read")
      */
+     
     private $id;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups({"product:read", "product:write"})
      */
     private $nom;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups({"product:read", "product:write"})
      */
     private $description;
 
     /**
      * @ORM\Column(type="float")
+     * @Groups({"product:read", "product:write"})
      */
     private $prix;
 
     /**
      * @ORM\ManyToOne(targetEntity=Category::class, inversedBy="products")
+     * @Groups({"product:read", "product:write"})
      */
     private $Category;
 
