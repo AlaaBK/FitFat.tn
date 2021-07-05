@@ -8,6 +8,20 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
     null,
     [
         'stdClass' => [
+            'attributes' => [
+                [
+                    'normalization_context' => [
+                        'groups' => [
+                            'restaurant:read',
+                        ],
+                    ],
+                    'denormalization_context' => [
+                        'groups' => [
+                            'restaurant:write',
+                        ],
+                    ],
+                ],
+            ],
             'repositoryClass' => [
                 1 => 'App\\Repository\\RestaurantRepository',
             ],

@@ -3,11 +3,18 @@
 namespace App\Entity;
 
 use ApiPlatform\Core\Annotation\ApiResource;
+use ApiPlatform\Core\Annotation\ApiSubresource;
 use App\Repository\RestaurantRepository;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Serializer\Annotation\Groups;
+use Doctrine\Common\Collections\ArrayCollection;
+
 
 /**
- * @ApiResource()
+ * @ApiResource(
+ *     normalizationContext={"groups"={"restaurant:read"}},
+ *     denormalizationContext={"groups"={"restaurant:write"}}
+ * )
  * @ORM\Entity(repositoryClass=RestaurantRepository::class)
  */
 class Restaurant
@@ -16,26 +23,32 @@ class Restaurant
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
+     * @Groups("restaurant:read")
+
      */
     private $id;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups({"restaurant:read", "restaurant:write"})
      */
     private $nom;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups({"restaurant:read", "restaurant:write"})
      */
     private $description;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups({"restaurant:read", "restaurant:write"})
      */
     private $adresse;
 
     /**
      * @ORM\Column(type="integer")
+     * @Groups({"restaurant:read", "restaurant:write"})
      */
     private $telephone;
 
