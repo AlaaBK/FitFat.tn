@@ -8,12 +8,20 @@ use App\Repository\RestaurantRepository;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Serializer\Annotation\Groups;
 use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
+use ApiPlatform\Core\Annotation\ApiFilter;
+use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter;
+
 
 
 /**
  * @ApiResource(
  *     normalizationContext={"groups"={"restaurant:read"}},
- *     denormalizationContext={"groups"={"restaurant:write"}}
+ *     denormalizationContext={"groups"={"restaurant:write"}})
+ * @ApiFilter(SearchFilter::class, properties={
+ *     "adresse": "partial",
+ *     "nom": "partial",
+ * }
  * )
  * @ORM\Entity(repositoryClass=RestaurantRepository::class)
  */
