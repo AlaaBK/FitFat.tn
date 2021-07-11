@@ -17,4 +17,18 @@ class RestaurantController extends AbstractController
             'controller_name' => 'RestaurantController',
         ]);
     }
+    /*
+    private $restaurantHandler;
+
+    public function __construct(restaurantHandler $restaurantHandler)
+    {
+        $this->restaurantHandler = $restaurantHandler;
+    }
+
+    public function __invoke(Book $data): Book
+    {
+        $this->restaurantHandler->handle($data);
+
+        return $data;
+    }*/
 }
