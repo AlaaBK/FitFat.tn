@@ -17,6 +17,7 @@ use Symfony\Component\Serializer\Annotation\Groups;
  * )
  * @UniqueEntity(fields={"username"}, message="There is already an account with this username")
  */
+
 class User implements UserInterface
 {
     /**
@@ -145,6 +146,7 @@ class User implements UserInterface
     }
 
     public function setEmail(string $email): self
+<<<<<<< HEAD
     {
         $this->email = $email;
 
@@ -158,6 +160,21 @@ class User implements UserInterface
 
     public function setName(string $name): self
     {
+=======
+    {
+        $this->email = $email;
+
+        return $this;
+    }
+
+    public function getName(): ?string
+    {
+        return $this->name;
+    }
+
+    public function setName(string $name): self
+    {
+>>>>>>> master
         $this->name = $name;
 
         return $this;
@@ -175,3 +192,7 @@ class User implements UserInterface
         return $this;
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
