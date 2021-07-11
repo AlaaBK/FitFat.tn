@@ -7,10 +7,13 @@ use App\Repository\BlogRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter;
+use ApiPlatform\Core\Annotation\ApiFilter;
 
 /**
  * @ApiResource()
  * @ORM\Entity(repositoryClass=BlogRepository::class)
+ * @ApiFilter(SearchFilter::class, properties={"publique": "partial"})
  */
 class Blog
 {
