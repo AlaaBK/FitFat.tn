@@ -1,3 +1,0 @@
-<?php //route_name_15c0fc785dbd52ed8f64b59dab0f7169
-
-return [PHP_INT_MAX, 'api_restaurants_get_item'];

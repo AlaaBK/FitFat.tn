@@ -20,10 +20,8 @@ use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\OrderFilter;
  *     denormalizationContext={"groups"={"restaurant:write"}})
  * @ApiFilter(SearchFilter::class, properties={
  *     "adresse": "partial",
- *     "nom": "partial",
- * }
- *
- * )
+ *     "nom": "partial"
+ * })
  * @ApiFilter(
  *    OrderFilter::class, properties={"id" : "asc"})
  *
