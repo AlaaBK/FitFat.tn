@@ -10,7 +10,7 @@ if (in_array(PHP_SAPI, ['cli', 'phpdbg'], true)) {
 }
 
 require dirname(__DIR__, 3).''.\DIRECTORY_SEPARATOR.'vendor/autoload.php';
-require __DIR__.'/ContainerErCqYpk/srcApp_KernelDevDebugContainer.php';
+require __DIR__.'/ContainerXkxrI2g/srcApp_KernelDevDebugContainer.php';
 
 $classes = [];
 $classes[] = 'Symfony\Bundle\FrameworkBundle\FrameworkBundle';
@@ -51,6 +51,7 @@ $classes[] = 'Doctrine\DBAL\Tools\Console\Command\RunSqlCommand';
 $classes[] = 'Symfony\Bundle\FrameworkBundle\Controller\RedirectController';
 $classes[] = 'Symfony\Bundle\FrameworkBundle\Controller\TemplateController';
 $classes[] = 'ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter';
+$classes[] = 'ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\OrderFilter';
 $classes[] = 'Symfony\Component\Cache\Adapter\PhpArrayAdapter';
 $classes[] = 'Symfony\Bundle\FrameworkBundle\CacheWarmer\AnnotationsCacheWarmer';
 $classes[] = 'Doctrine\Common\Annotations\PsrCachedReader';

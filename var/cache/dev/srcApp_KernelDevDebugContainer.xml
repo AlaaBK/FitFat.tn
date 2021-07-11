@@ -5633,6 +5633,7 @@
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="annotated_app_entity_product_api_platform_core_bridge_doctrine_orm_filter_search_filter" type="service_closure" id="annotated_app_entity_product_api_platform_core_bridge_doctrine_orm_filter_search_filter"/>
+        <argument key="annotated_app_entity_restaurant_api_platform_core_bridge_doctrine_orm_filter_order_filter" type="service_closure" id="annotated_app_entity_restaurant_api_platform_core_bridge_doctrine_orm_filter_order_filter"/>
         <argument key="annotated_app_entity_restaurant_api_platform_core_bridge_doctrine_orm_filter_search_filter" type="service_closure" id="annotated_app_entity_restaurant_api_platform_core_bridge_doctrine_orm_filter_search_filter"/>
       </argument>
     </service>
@@ -5640,6 +5641,7 @@
       <argument type="collection">
         <argument>annotated_app_entity_product_api_platform_core_bridge_doctrine_orm_filter_search_filter</argument>
         <argument>annotated_app_entity_restaurant_api_platform_core_bridge_doctrine_orm_filter_search_filter</argument>
+        <argument>annotated_app_entity_restaurant_api_platform_core_bridge_doctrine_orm_filter_order_filter</argument>
       </argument>
     </service>
     <service id="api_platform.filters" class="ApiPlatform\Core\Api\FilterCollection" public="false">
@@ -6252,6 +6254,17 @@
         <argument key="nom">partial</argument>
       </argument>
       <argument type="service" id="api_platform.identifiers_extractor.cached" on-invalid="ignore"/>
+      <argument type="service" id="serializer.name_converter.metadata_aware" on-invalid="ignore"/>
+    </service>
+    <service id="annotated_app_entity_restaurant_api_platform_core_bridge_doctrine_orm_filter_order_filter" class="ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\OrderFilter" public="false" autowire="true">
+      <tag name="api_platform.filter"/>
+      <argument type="service" id="doctrine"/>
+      <argument>null</argument>
+      <argument>order</argument>
+      <argument type="service" id="monolog.logger" on-invalid="ignore"/>
+      <argument type="collection">
+        <argument key="id">asc</argument>
+      </argument>
       <argument type="service" id="serializer.name_converter.metadata_aware" on-invalid="ignore"/>
     </service>
     <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\RestaurantController" class="App\Controller\RestaurantController" autowire="true" abstract="true"/>
@@ -7644,7 +7657,7 @@
     </service>
     <service id="api_platform.name_converter" alias="serializer.name_converter.metadata_aware"/>
     <service id=".service_locator.c3XszGA" alias="api_platform.serializer_locator" public="false"/>
-    <service id=".service_locator._NUG9SD" alias="api_platform.filter_locator" public="false"/>
+    <service id=".service_locator.cgVFgeF" alias="api_platform.filter_locator" public="false"/>
     <service id=".service_locator.tHpW6v3" alias=".service_locator.Y7gDuDN" public="false"/>
     <service id="validator" alias="debug.validator" public="true"/>
     <service id="api_platform.metadata.property.metadata_factory.property_info.inner" alias="api_platform.metadata.property.metadata_factory.xml" public="false"/>

@@ -276,3 +276,12 @@ c885f0,127.0.0.1,PUT,http://127.0.0.1:8000/api/restaurants/5,1625683543,,200
 57c58f,127.0.0.1,GET,http://127.0.0.1:8000/api/restaurants,1625683552,,200
 f4693a,127.0.0.1,GET,http://127.0.0.1:8000/api/restaurants/5,1625683567,,200
 5cec8f,127.0.0.1,GET,http://127.0.0.1:8000/api/restaurants,1625683620,,200
+374ee8,127.0.0.1,GET,http://127.0.0.1:8000/,1626018313,,404
+85df0d,127.0.0.1,GET,http://127.0.0.1:8000/favicon.ico,1626018336,661827,404
+661827,127.0.0.1,GET,http://127.0.0.1:8000/favicon.ico,1626018337,,404
+73c3f5,127.0.0.1,GET,http://127.0.0.1:8000/api,1626018340,,200
+6e525a,127.0.0.1,GET,http://127.0.0.1:8000/api/restaurants?adresse=14&page=1,1626018663,,200
+394eb8,127.0.0.1,GET,http://127.0.0.1:8000/api/restaurants,1626018730,,200
+0a3762,127.0.0.1,GET,http://127.0.0.1:8000/api/restaurants?adresse=15,1626018805,,200
+b98805,127.0.0.1,GET,http://127.0.0.1:8000/api/restaurants?adresse=15&order%5Bid%5D=desc,1626018880,,200
+cd49b2,127.0.0.1,GET,http://127.0.0.1:8000/api/restaurants?nom=k&order%5Bid%5D=desc,1626018905,,200

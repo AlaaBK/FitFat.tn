@@ -11,7 +11,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use ApiPlatform\Core\Annotation\ApiFilter;
 use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter;
-
+use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\OrderFilter;
 
 
 /**
@@ -22,7 +22,11 @@ use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter;
  *     "adresse": "partial",
  *     "nom": "partial",
  * }
+ *
  * )
+ * @ApiFilter(
+ *    OrderFilter::class, properties={"id" : "asc"})
+ *
  * @ORM\Entity(repositoryClass=RestaurantRepository::class)
  */
 class Restaurant
