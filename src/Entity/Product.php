@@ -50,6 +50,12 @@ class Product
     private $prix;
 
     /**
+     * @ORM\Column(type="string", length=255)
+     * @Groups({"product:read", "product:write"})
+     */
+    private $img;
+
+    /**
      * @ORM\ManyToOne(targetEntity=Category::class, inversedBy="products")
      * @ORM\JoinColumn(nullable=false)
      * @Groups({"product:read", "product:write"})
@@ -111,6 +117,17 @@ class Product
         return $this;
     }
 
+    public function getImg(): ?string
+    {
+        return $this->img;
+    }
+
+    public function setImg(?string $img): self
+    {
+        $this->img = $img;
+
+        return $this;
+    }
 
 
 }
