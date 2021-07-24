@@ -71,6 +71,6 @@ class __TwigTemplate_3b88b0a658a53bae94e7cc645067cfc8b1de0490daf5f80803459c34034
         <?php echo \$view['form']->row(\$child) ?>
     <?php endif; ?>
 <?php endforeach; ?>
-", "@Framework/Form/form_rows.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_rows.html.php");
+", "@Framework/Form/form_rows.html.php", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_rows.html.php");
     }
 }

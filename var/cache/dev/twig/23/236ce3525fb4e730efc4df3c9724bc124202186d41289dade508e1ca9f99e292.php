@@ -275,6 +275,6 @@ class __TwigTemplate_ce40d2d733995f2184c4917c19981b92374a8164b0fb2d1655e6b5cb992
     </body>
 </html>
 {% block after_html %}{% endblock %}
-", "@Twig/layout.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\layout.html.twig");
+", "@Twig/layout.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\layout.html.twig");
     }
 }

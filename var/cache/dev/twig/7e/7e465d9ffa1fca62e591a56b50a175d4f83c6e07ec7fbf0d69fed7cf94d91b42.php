@@ -193,6 +193,6 @@ class __TwigTemplate_0fd5df1fe7f556aaa0cceb536542690b37b49c500ad6665fdfd2fb00ea9
         {% block body '' %}
     </body>
 </html>
-", "@WebProfiler/Profiler/base.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\base.html.twig");
+", "@WebProfiler/Profiler/base.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\base.html.twig");
     }
 }

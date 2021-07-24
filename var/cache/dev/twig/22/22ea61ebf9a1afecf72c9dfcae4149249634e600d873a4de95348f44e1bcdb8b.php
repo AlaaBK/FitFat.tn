@@ -403,6 +403,6 @@ class __TwigTemplate_37ae66bd2cbeb2bd6b267a821718a334ec159e38b53977d3473f419d184
 
 </body>
 </html>
-", "@ApiPlatform/SwaggerUi/index.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\SwaggerUi\\index.html.twig");
+", "@ApiPlatform/SwaggerUi/index.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\SwaggerUi\\index.html.twig");
     }
 }

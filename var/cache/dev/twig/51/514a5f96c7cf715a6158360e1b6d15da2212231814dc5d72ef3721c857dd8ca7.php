@@ -139,6 +139,6 @@ class __TwigTemplate_86e10337855cbca4f16b6c33ee39f278f7ba524f50a7a9c02d29e1f833a
 
 </body>
 </html>
-", "@ApiPlatform/Graphiql/index.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\Graphiql\\index.html.twig");
+", "@ApiPlatform/Graphiql/index.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\Graphiql\\index.html.twig");
     }
 }

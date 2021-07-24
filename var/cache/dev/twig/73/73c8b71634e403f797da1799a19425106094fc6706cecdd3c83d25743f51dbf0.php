@@ -75,6 +75,6 @@ class __TwigTemplate_9aa5021e8def4787bff8c95ddc8d3f316b804039b0e36d7cbee2b28d6d8
     <?php echo \$view['form']->widget(\$form, \$widgetAttr); ?>
     <?php echo \$view['form']->help(\$form); ?>
 </div>
-", "@Framework/Form/form_row.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_row.html.php");
+", "@Framework/Form/form_row.html.php", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_row.html.php");
     }
 }

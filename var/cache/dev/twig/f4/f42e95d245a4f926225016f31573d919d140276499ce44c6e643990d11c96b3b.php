@@ -417,6 +417,6 @@ class __TwigTemplate_ea2a322fdac4d4503bf12a324c3b783ce15c41c329d284fb541142b88bf
     });
 })();
 </script>
-", "@WebProfiler/Profiler/settings.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\settings.html.twig");
+", "@WebProfiler/Profiler/settings.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\settings.html.twig");
     }
 }

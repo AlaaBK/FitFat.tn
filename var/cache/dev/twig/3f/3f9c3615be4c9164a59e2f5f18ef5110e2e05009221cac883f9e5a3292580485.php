@@ -71,6 +71,6 @@ class __TwigTemplate_294cf8cda424a404bf65f11ec15b251b995d762c3d86d618d362bae00f7
     value=\"<?php echo \$view->escape(\$value) ?>\"
     <?php if (\$checked): ?> checked=\"checked\"<?php endif ?>
 />
-", "@Framework/Form/radio_widget.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\radio_widget.html.php");
+", "@Framework/Form/radio_widget.html.php", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\radio_widget.html.php");
     }
 }

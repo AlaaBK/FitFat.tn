@@ -212,6 +212,6 @@ class __TwigTemplate_00cdf01c3e752057044bb77c7ec1d008a4844c49a526d6e344bac4f779c
     {% endfor %}
     </tbody>
 </table>
-", "@Twig/Exception/logs.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\logs.html.twig");
+", "@Twig/Exception/logs.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\logs.html.twig");
     }
 }

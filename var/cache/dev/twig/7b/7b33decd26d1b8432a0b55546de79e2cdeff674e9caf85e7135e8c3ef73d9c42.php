@@ -1140,6 +1140,6 @@ class __TwigTemplate_de0e00a55dbc93b3afa0de084e4fe7d63fc3789771dd50bd1827330f7c7
 
 </body>
 </html>
-", "@ApiPlatform/GraphQlPlayground/index.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\GraphQlPlayground\\index.html.twig");
+", "@ApiPlatform/GraphQlPlayground/index.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\GraphQlPlayground\\index.html.twig");
     }
 }

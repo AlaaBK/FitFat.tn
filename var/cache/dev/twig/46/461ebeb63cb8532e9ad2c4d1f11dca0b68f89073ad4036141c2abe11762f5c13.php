@@ -73,6 +73,6 @@ class __TwigTemplate_33368514b93b02294ace860e843a09b0e26cae74835506912b3f8cdaa9e
     {
         return new Source("{% deprecated 'The template \"' ~ _self ~'\" is deprecated since Symfony 4.4, will be removed in 5.0.' %}
 {{ include('@Twig/Exception/error.xml.twig') }}
-", "@Twig/Exception/error.atom.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\error.atom.twig");
+", "@Twig/Exception/error.atom.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\error.atom.twig");
     }
 }

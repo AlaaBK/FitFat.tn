@@ -73,6 +73,6 @@ class __TwigTemplate_f5e5e4be46fb0b6614b8a3162eacb28843b57db6af479f932ff99c084b5
     <?php \$help = false === \$help_html ? \$view->escape(\$help) : \$help ?>
     <p id=\"<?php echo \$view->escape(\$id); ?>_help\" <?php echo ' '.\$view['form']->block(\$form, 'attributes', ['attr' => \$help_attr]); ?>><?php echo \$help; ?></p>
 <?php endif; ?>
-", "@Framework/Form/form_help.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_help.html.php");
+", "@Framework/Form/form_help.html.php", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_help.html.php");
     }
 }

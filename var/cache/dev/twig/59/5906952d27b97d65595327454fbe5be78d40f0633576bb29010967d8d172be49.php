@@ -112,6 +112,6 @@ class __TwigTemplate_4feebdc066d7f0e3f0017c4932ebd3b0741c447ba0f8d02df52a587a6cc
     </exception>
 {% endfor %}
 </error>
-", "@Twig/Exception/exception.xml.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\exception.xml.twig");
+", "@Twig/Exception/exception.xml.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\exception.xml.twig");
     }
 }

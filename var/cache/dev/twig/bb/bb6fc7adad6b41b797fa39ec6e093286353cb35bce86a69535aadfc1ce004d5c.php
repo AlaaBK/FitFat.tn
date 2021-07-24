@@ -63,6 +63,6 @@ class __TwigTemplate_26cd8dde8b639314f9ba8b45cdd27ed5a455a5abcf9a59ace98bbc45ac2
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->block(\$form, 'form_widget_simple', ['type' => \$type ?? 'range']);
-", "@Framework/Form/range_widget.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\range_widget.html.php");
+", "@Framework/Form/range_widget.html.php", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\range_widget.html.php");
     }
 }

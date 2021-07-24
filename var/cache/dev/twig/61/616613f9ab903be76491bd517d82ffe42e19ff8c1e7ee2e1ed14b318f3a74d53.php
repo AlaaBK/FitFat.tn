@@ -99,6 +99,6 @@ class __TwigTemplate_0d55222e235d5c50577b62659ea1c949f7b48e9a474d0c106d395259de4
             </trace>
 {% endfor %}
         </traces>
-", "@Twig/Exception/traces.xml.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\traces.xml.twig");
+", "@Twig/Exception/traces.xml.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\traces.xml.twig");
     }
 }
