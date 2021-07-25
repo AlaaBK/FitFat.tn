@@ -764,6 +764,6 @@ class __TwigTemplate_c9130f27a0978a9d8bc0611edaec9699a5c1175d856a357c043bbc4a904
         </div>
     {% endfor %}
 {% endblock %}
-", "@WebProfiler/Collector/mailer.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\mailer.html.twig");
+", "@WebProfiler/Collector/mailer.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\mailer.html.twig");
     }
 }

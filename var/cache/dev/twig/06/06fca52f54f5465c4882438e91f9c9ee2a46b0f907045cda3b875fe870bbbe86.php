@@ -83,6 +83,6 @@ class __TwigTemplate_bfc788941f473735abb051075cf6e79d530f930f2f29b0a2b6282b1310a
 <?xml version=\"1.0\" encoding=\"{{ _charset }}\" ?>
 
 <error code=\"{{ status_code }}\" message=\"{{ status_text }}\" />
-", "@Twig/Exception/error.xml.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\error.xml.twig");
+", "@Twig/Exception/error.xml.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\error.xml.twig");
     }
 }

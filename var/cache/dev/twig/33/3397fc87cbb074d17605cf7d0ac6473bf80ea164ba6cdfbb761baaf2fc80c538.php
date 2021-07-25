@@ -900,6 +900,6 @@ class __TwigTemplate_9a6d43c3b50a45132ee97eaa951ae36304d0673afce718d0ab5f195cc92
         {% endautoescape %}</script>
     </div>
 {% endmacro %}
-", "@WebProfiler/Collector/time.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\time.html.twig");
+", "@WebProfiler/Collector/time.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\time.html.twig");
     }
 }

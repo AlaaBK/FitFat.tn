@@ -189,6 +189,6 @@ class __TwigTemplate_e6e88ece5116c891f6dfa209b4103175f857f681ea6832bd00a4444aa75
         </div>
     </div>
 </div>
-", "@Twig/Exception/traces.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\traces.html.twig");
+", "@Twig/Exception/traces.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\traces.html.twig");
     }
 }

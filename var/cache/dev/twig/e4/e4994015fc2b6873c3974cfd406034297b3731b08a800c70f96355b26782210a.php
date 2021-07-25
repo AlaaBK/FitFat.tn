@@ -106,6 +106,6 @@ class __TwigTemplate_b9616245aa3daecce114369a28a002241f70ad0c2f84a9ef70f91d2f7e8
 {{ include('@Twig/Exception/traces.txt.twig', { exception: e }, with_context = false) }}
 
 {% endfor %}
-", "@Twig/Exception/exception.txt.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\exception.txt.twig");
+", "@Twig/Exception/exception.txt.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\exception.txt.twig");
     }
 }

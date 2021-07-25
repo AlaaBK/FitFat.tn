@@ -479,6 +479,6 @@ class __TwigTemplate_e4a88f06eb04859b08e1b1606b8cf73e8fb90fe2c627cc58f280eb0fd48
         </div>
     {% endfor %}
 {% endblock %}
-", "@WebProfiler/Collector/validator.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\validator.html.twig");
+", "@WebProfiler/Collector/validator.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\validator.html.twig");
     }
 }

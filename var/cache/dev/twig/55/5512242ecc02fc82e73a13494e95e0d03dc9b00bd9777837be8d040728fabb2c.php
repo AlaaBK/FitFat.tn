@@ -94,6 +94,6 @@ class __TwigTemplate_846179de557e94031dce8acd588b015ea8bbfd6aa1dc9bfc7a29c714792
 <p>
     Cheers!
 </p>
-", "registration/confirmation_email.html.twig", "C:\\wamp64\\www\\FitFat\\templates\\registration\\confirmation_email.html.twig");
+", "registration/confirmation_email.html.twig", "C:\\xampp\\htdocs\\FitFat\\templates\\registration\\confirmation_email.html.twig");
     }
 }

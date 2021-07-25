@@ -191,6 +191,6 @@ class __TwigTemplate_6750c32e1315556ea16b8a64c42a644f6fd3e2312827f03dfe538c8c342
         {% block body %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "C:\\wamp64\\www\\FitFat\\templates\\base.html.twig");
+", "base.html.twig", "C:\\xampp\\htdocs\\FitFat\\templates\\base.html.twig");
     }
 }

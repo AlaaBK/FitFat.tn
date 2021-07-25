@@ -83,6 +83,6 @@ class __TwigTemplate_b272801e50f504c27edf456da6ffc6cba2ceb9913e2884db0aa66edac00
         <?php echo \$view['form']->help(\$form); ?>
     </td>
 </tr>
-", "@Framework/FormTable/form_row.html.php", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\FormTable\\form_row.html.php");
+", "@Framework/FormTable/form_row.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\FormTable\\form_row.html.php");
     }
 }

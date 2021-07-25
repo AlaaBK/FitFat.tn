@@ -71,6 +71,6 @@ class __TwigTemplate_9aaf2041bf5020f98b18b5220c97d116ade6955ade2e3bb95d6cc090a29
 <?php else: ?>
 <?php echo \$view['form']->block(\$form, 'form_widget_simple')?>
 <?php endif ?>
-", "@Framework/Form/form_widget.html.php", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_widget.html.php");
+", "@Framework/Form/form_widget.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_widget.html.php");
     }
 }
