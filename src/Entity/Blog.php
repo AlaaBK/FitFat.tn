@@ -13,7 +13,7 @@ use ApiPlatform\Core\Annotation\ApiFilter;
 /**
  * @ApiResource()
  * @ORM\Entity(repositoryClass=BlogRepository::class)
- * @ApiFilter(SearchFilter::class, properties={"publique": "partial"})
+ * @ApiFilter(SearchFilter::class, properties={"publique": "partial", "titre": "partial"})
  */
 class Blog
 {
@@ -48,6 +48,11 @@ class Blog
      * @ORM\OneToMany(targetEntity=Commentaire::class, mappedBy="blogs")
      */
     private $commentaires;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $image;
 
     public function __construct()
     {
@@ -134,6 +139,18 @@ class Blog
                 $commentaire->setBlogs(null);
             }
         }
+
+        return $this;
+    }
+
+    public function getImage(): ?string
+    {
+        return $this->image;
+    }
+
+    public function setImage(?string $image): self
+    {
+        $this->image = $image;
 
         return $this;
     }
