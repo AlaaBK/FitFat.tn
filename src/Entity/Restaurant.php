@@ -64,6 +64,7 @@ class Restaurant
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
+     * @Groups({"restaurant:read", "restaurant:write"})
      */
     private $image;
 
