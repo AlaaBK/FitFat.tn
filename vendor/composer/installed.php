@@ -6,7 +6,11 @@
     'aliases' => 
     array (
     ),
+<<<<<<< HEAD
     'reference' => '97b6233e9ea3a7d4f6f869fd8040a407409bf021',
+=======
+    'reference' => 'dec2c0435a77e5a39e9fbeffd4ea146eefdbef35',
+>>>>>>> master
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +22,11 @@
       'aliases' => 
       array (
       ),
+<<<<<<< HEAD
       'reference' => '97b6233e9ea3a7d4f6f869fd8040a407409bf021',
+=======
+      'reference' => 'dec2c0435a77e5a39e9fbeffd4ea146eefdbef35',
+>>>>>>> master
     ),
     'api-platform/core' => 
     array (

@@ -63,6 +63,10 @@ class __TwigTemplate_7dbea1f36b18e63303ba1a6a5b7e74e1cb2ba24c2372a67198254c188dd
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->block(\$form, 'button_widget', ['type' => \$type ?? 'reset']) ?>
+<<<<<<< HEAD
 ", "@Framework/Form/reset_widget.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\reset_widget.html.php");
+=======
+", "@Framework/Form/reset_widget.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\reset_widget.html.php");
+>>>>>>> master
     }
 }

@@ -1077,6 +1077,10 @@ class __TwigTemplate_bf0a1e6416f6f2b951fef95a8a9a872d90694ea9c5ca94739abbc6d9b19
         </span>
     {%- endif -%}
 {%- endblock form_help %}
+<<<<<<< HEAD
 ", "bootstrap_3_layout.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\bootstrap_3_layout.html.twig");
+=======
+", "bootstrap_3_layout.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\bootstrap_3_layout.html.twig");
+>>>>>>> master
     }
 }

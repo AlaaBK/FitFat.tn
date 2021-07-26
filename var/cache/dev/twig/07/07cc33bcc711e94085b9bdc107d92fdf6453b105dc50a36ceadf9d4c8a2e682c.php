@@ -482,6 +482,10 @@ class __TwigTemplate_24984b45de67c905b26050ca4b72012ebff9b54e7b267dff0984ccde6ff
         {% endfor %}
     </table>
 {% endmacro %}
+<<<<<<< HEAD
 ", "@WebProfiler/Collector/events.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\events.html.twig");
+=======
+", "@WebProfiler/Collector/events.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\events.html.twig");
+>>>>>>> master
     }
 }

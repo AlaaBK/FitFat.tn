@@ -62,6 +62,12 @@ class Restaurant
      */
     private $telephone;
 
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     * @Groups({"restaurant:read", "restaurant:write"})
+     */
+    private $image;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -111,6 +117,18 @@ class Restaurant
     public function setTelephone(int $telephone): self
     {
         $this->telephone = $telephone;
+
+        return $this;
+    }
+
+    public function getImage(): ?string
+    {
+        return $this->image;
+    }
+
+    public function setImage(?string $image): self
+    {
+        $this->image = $image;
 
         return $this;
     }

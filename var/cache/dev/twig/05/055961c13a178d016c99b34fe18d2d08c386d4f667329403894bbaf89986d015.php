@@ -65,6 +65,10 @@ class __TwigTemplate_1bff219fda121a9e55abdcf17409af693dd15f81ff6e920bb50da35f95b
     {
         return new Source("<?php \$symbol = false !== \$symbol ? (\$symbol ? ' '.\$symbol : ' %') : '' ?>
 <?php echo \$view['form']->block(\$form, 'form_widget_simple', ['type' => \$type ?? 'text']).\$view->escape(\$symbol) ?>
+<<<<<<< HEAD
 ", "@Framework/Form/percent_widget.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\percent_widget.html.php");
+=======
+", "@Framework/Form/percent_widget.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\percent_widget.html.php");
+>>>>>>> master
     }
 }

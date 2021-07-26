@@ -434,6 +434,10 @@ class __TwigTemplate_2e08b71550e573b3562a9702c78c105138df66ed9f89f79e42fe7879ac5
         {% endif %}
     </div>
 {% endblock %}
+<<<<<<< HEAD
 ", "@WebProfiler/Collector/http_client.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\http_client.html.twig");
+=======
+", "@WebProfiler/Collector/http_client.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\http_client.html.twig");
+>>>>>>> master
     }
 }

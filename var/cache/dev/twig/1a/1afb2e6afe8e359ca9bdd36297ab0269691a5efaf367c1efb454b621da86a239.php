@@ -843,6 +843,10 @@ class __TwigTemplate_e7cebaf960ae2b3fa00a71d9eb47e00bd412f70291f3be307fdcb959d36
     </table>
     {% endfor %}
 {% endmacro %}
+<<<<<<< HEAD
 ", "@WebProfiler/Collector/messenger.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\messenger.html.twig");
+=======
+", "@WebProfiler/Collector/messenger.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\messenger.html.twig");
+>>>>>>> master
     }
 }

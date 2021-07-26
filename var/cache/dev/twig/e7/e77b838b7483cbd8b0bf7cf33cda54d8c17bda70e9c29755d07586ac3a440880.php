@@ -77,6 +77,10 @@ class __TwigTemplate_eac9b7f1cb7e866b54559188abaf5e4ee26b85a6eab70d8b018b931de41
     : \$view['form']->humanize(\$name); } ?>
 <label<?php if (\$label_attr) { echo ' '.\$view['form']->block(\$form, 'attributes', ['attr' => \$label_attr]); } ?>><?php echo \$view->escape(false !== \$translation_domain ? \$view['translator']->trans(\$label, \$label_translation_parameters, \$translation_domain) : \$label) ?></label>
 <?php endif ?>
+<<<<<<< HEAD
 ", "@Framework/Form/form_label.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_label.html.php");
+=======
+", "@Framework/Form/form_label.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_label.html.php");
+>>>>>>> master
     }
 }

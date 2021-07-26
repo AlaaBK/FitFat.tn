@@ -67,6 +67,10 @@ class __TwigTemplate_b98123e1be7e923eed9c254628a36ac69baf94e5e7000025983db5501b3
         return new Source("<?php echo \$view['form']->start(\$form) ?>
     <?php echo \$view['form']->widget(\$form) ?>
 <?php echo \$view['form']->end(\$form) ?>
+<<<<<<< HEAD
 ", "@Framework/Form/form.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form.html.php");
+=======
+", "@Framework/Form/form.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form.html.php");
+>>>>>>> master
     }
 }

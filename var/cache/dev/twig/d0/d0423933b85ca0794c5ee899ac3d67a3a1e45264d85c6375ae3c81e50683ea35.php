@@ -95,6 +95,10 @@ class __TwigTemplate_eae251954e10c7d82e0723b9c6952e378879b4e16dc8adc7a9df666adf2
         ], \$date_pattern) ?>
     </div>
 <?php endif ?>
+<<<<<<< HEAD
 ", "@Framework/Form/date_widget.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\date_widget.html.php");
+=======
+", "@Framework/Form/date_widget.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\date_widget.html.php");
+>>>>>>> master
     }
 }

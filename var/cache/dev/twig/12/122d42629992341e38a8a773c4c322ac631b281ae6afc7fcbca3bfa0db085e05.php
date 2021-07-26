@@ -97,6 +97,10 @@ class __TwigTemplate_68d8e4b4bd671e074aa10441133e771b1f3d429b0e3e9da878f41a9c423
         </div>
     </div>
 </div>
+<<<<<<< HEAD
 ", "@WebProfiler/Profiler/header.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\header.html.twig");
+=======
+", "@WebProfiler/Profiler/header.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\header.html.twig");
+>>>>>>> master
     }
 }

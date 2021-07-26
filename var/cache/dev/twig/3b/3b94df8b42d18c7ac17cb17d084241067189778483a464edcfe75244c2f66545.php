@@ -79,6 +79,10 @@ class __TwigTemplate_42418ba712c0b201aabce3163ccf37ae3c117e34b029592a9421252d410
 /*
 {{ include('@Twig/Exception/exception.txt.twig', { exception: exception }) }}
 */
+<<<<<<< HEAD
 ", "@Twig/Exception/exception.css.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\exception.css.twig");
+=======
+", "@Twig/Exception/exception.css.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\exception.css.twig");
+>>>>>>> master
     }
 }

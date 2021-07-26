@@ -1180,6 +1180,10 @@ div.sf-toolbar .sf-toolbar-block a:hover {
         display: none !important;
     }
 }
+<<<<<<< HEAD
 ", "@WebProfiler/Profiler/toolbar.css.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\toolbar.css.twig");
+=======
+", "@WebProfiler/Profiler/toolbar.css.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\toolbar.css.twig");
+>>>>>>> master
     }
 }

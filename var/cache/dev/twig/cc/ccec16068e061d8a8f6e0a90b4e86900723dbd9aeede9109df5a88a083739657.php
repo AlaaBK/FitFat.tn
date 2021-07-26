@@ -77,6 +77,10 @@ class __TwigTemplate_40663a70bf0deeb87881552168e1cc7077b4f06513074bf8d3b0c157c9e
 <?php printf('%s=\"%s\" ', \$view->escape(\$k), \$view->escape(\$v)) ?>
 <?php endif ?>
 <?php endforeach ?>
+<<<<<<< HEAD
 ", "@Framework/Form/choice_attributes.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\choice_attributes.html.php");
+=======
+", "@Framework/Form/choice_attributes.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\choice_attributes.html.php");
+>>>>>>> master
     }
 }

@@ -270,6 +270,10 @@ class __TwigTemplate_03ccaa4cc843405526ddb69f5c58137b2c0a35c309b2ba7199282201210
     </div>
 {%- endblock -%}
 
+<<<<<<< HEAD
 ", "@VichUploader/Form/fields.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\vich\\uploader-bundle\\templates\\Form\\fields.html.twig");
+=======
+", "@VichUploader/Form/fields.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\vich\\uploader-bundle\\templates\\Form\\fields.html.twig");
+>>>>>>> master
     }
 }

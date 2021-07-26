@@ -291,6 +291,10 @@ class __TwigTemplate_a1623ae3bab50f692db420af94723b5ea91ed668f2ebce65550cedb327a
         </tbody>
     </table>
 {% endblock %}
+<<<<<<< HEAD
 ", "@VichUploader/Collector/mapping_collector.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\vich\\uploader-bundle\\templates\\Collector\\mapping_collector.html.twig");
+=======
+", "@VichUploader/Collector/mapping_collector.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\vich\\uploader-bundle\\templates\\Collector\\mapping_collector.html.twig");
+>>>>>>> master
     }
 }

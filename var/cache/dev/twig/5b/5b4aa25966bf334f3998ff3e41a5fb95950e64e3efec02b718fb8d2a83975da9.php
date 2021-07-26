@@ -89,6 +89,10 @@ class __TwigTemplate_1960e4c2a23b500d26bcfb3604aa5c24cd60878162626520d388dbccdb2
         ?>
     </div>
 <?php endif ?>
+<<<<<<< HEAD
 ", "@Framework/Form/week_widget.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\week_widget.html.php");
+=======
+", "@Framework/Form/week_widget.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\week_widget.html.php");
+>>>>>>> master
     }
 }

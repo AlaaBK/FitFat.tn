@@ -698,6 +698,10 @@ class __TwigTemplate_689f7f3c996524232f2e0e7e78bb2309be3bda5cb055b86708883a10d0d
         <td class=\"font-normal\">{{ migration.execution_time|default('n/a') }}</td>
     </tr>
 {% endmacro %}
+<<<<<<< HEAD
 ", "@DoctrineMigrations/Collector/migrations.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\doctrine\\doctrine-migrations-bundle\\Resources\\views\\Collector\\migrations.html.twig");
+=======
+", "@DoctrineMigrations/Collector/migrations.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\doctrine\\doctrine-migrations-bundle\\Resources\\views\\Collector\\migrations.html.twig");
+>>>>>>> master
     }
 }

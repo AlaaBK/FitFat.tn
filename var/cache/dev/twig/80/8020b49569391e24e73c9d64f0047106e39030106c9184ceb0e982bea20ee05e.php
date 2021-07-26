@@ -125,6 +125,10 @@ class __TwigTemplate_44300a88655353cc05c24eba9aed5474a11b600aae91b0a102f8a0e65eb
 .exception-message-wrapper .container {
     min-height: auto;
 }
+<<<<<<< HEAD
 ", "@WebProfiler/Collector/exception.css.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\exception.css.twig");
+=======
+", "@WebProfiler/Collector/exception.css.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\exception.css.twig");
+>>>>>>> master
     }
 }

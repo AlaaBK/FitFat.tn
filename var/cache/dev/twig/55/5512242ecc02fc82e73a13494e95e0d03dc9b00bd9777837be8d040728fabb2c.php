@@ -64,9 +64,24 @@ class __TwigTemplate_846179de557e94031dce8acd588b015ea8bbfd6aa1dc9bfc7a29c714792
 
     public function getSourceContext()
     {
+<<<<<<< HEAD
         return new Source("<h1>Welcome To Fitfat</h1>
 <p>inscription confirmed! Thank you</p>
 
 ", "registration/confirmation_email.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\templates\\registration\\confirmation_email.html.twig");
+=======
+        return new Source("<h1>Hi! Please confirm your email!</h1>
+
+<p>
+    Please confirm your email address by clicking the following link: <br><br>
+    <a href=\"{{ signedUrl }}\">Confirm my Email</a>.
+    This link will expire in {{ expiresAtMessageKey|trans(expiresAtMessageData, 'VerifyEmailBundle') }}.
+</p>
+
+<p>
+    Cheers!
+</p>
+", "registration/confirmation_email.html.twig", "C:\\xampp\\htdocs\\FitFat\\templates\\registration\\confirmation_email.html.twig");
+>>>>>>> master
     }
 }

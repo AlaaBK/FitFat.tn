@@ -59,6 +59,10 @@ class __TwigTemplate_f4946c67692974497f91f94628e125c8d491333e03bf79fada3aae826e9
 
     public function getSourceContext()
     {
+<<<<<<< HEAD
         return new Source("", "@Framework/Form/button_label.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\button_label.html.php");
+=======
+        return new Source("", "@Framework/Form/button_label.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\button_label.html.php");
+>>>>>>> master
     }
 }

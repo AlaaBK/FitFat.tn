@@ -65,6 +65,10 @@ class __TwigTemplate_080ea853e36afa68d5cbe11f21346c3ea65247b0b3a6c32d91a4e51e376
     {
         return new Source("id=\"<?php echo \$view->escape(\$id) ?>\" name=\"<?php echo \$view->escape(\$full_name) ?>\"<?php if (\$disabled): ?> disabled=\"disabled\"<?php endif ?>
 <?php echo \$attr ? ' '.\$view['form']->block(\$form, 'attributes') : '' ?>
+<<<<<<< HEAD
 ", "@Framework/Form/button_attributes.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\button_attributes.html.php");
+=======
+", "@Framework/Form/button_attributes.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\button_attributes.html.php");
+>>>>>>> master
     }
 }

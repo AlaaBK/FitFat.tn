@@ -161,6 +161,10 @@ class __TwigTemplate_9fa5297e05186aacac687115d8fb0abd742758f972e1d76cab099690c03
         </tr>
     </tbody>
 </table>
+<<<<<<< HEAD
 ", "@Twig/Exception/traces_text.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\traces_text.html.twig");
+=======
+", "@Twig/Exception/traces_text.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\traces_text.html.twig");
+>>>>>>> master
     }
 }

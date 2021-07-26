@@ -63,6 +63,10 @@ class __TwigTemplate_1d3829006c2a930543c78e574538601fc33f12026c44576cc021086fe51
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->block(\$form, 'button_widget', ['type' => \$type ?? 'submit']) ?>
+<<<<<<< HEAD
 ", "@Framework/Form/submit_widget.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\submit_widget.html.php");
+=======
+", "@Framework/Form/submit_widget.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\submit_widget.html.php");
+>>>>>>> master
     }
 }
