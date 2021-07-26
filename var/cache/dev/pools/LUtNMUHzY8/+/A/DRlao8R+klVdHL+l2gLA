@@ -1,3 +1,7 @@
 <?php //%5BC%5DApp%255CEntity%255CBlog%2524title
 
+<<<<<<< HEAD:var/cache/dev/pools/LUtNMUHzY8/+/A/DRlao8R+klVdHL+l2gLA
 return [PHP_INT_MAX, 1627226888];
+=======
+return [PHP_INT_MAX, 1627221698];
+>>>>>>> oussama:var/cache/dev/pools/8d7mMCMoGT/+/A/DRlao8R+klVdHL+l2gLA
