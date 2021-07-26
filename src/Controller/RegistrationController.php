@@ -107,13 +107,13 @@ class RegistrationController extends AbstractController
 
 
         //send an email to the new user
-        /*$this->emailVerifier->sendEmailConfirmation('app_verify_email', $user,
+        $this->emailVerifier->sendEmailConfirmation('app_verify_email', $user,
             (new TemplatedEmail())
                 ->from(new Address('rim.dhifallah@esprit.tn', 'Rim Dhifallah'))
                 ->to($user->getEmail())
-                ->subject('Please Confirm your Email')
+                ->subject('Inscription')
                 ->htmlTemplate('registration/confirmation_email.html.twig')
-        );*/
+        );
 
         $response = new JsonResponse([
             'code' => 200,

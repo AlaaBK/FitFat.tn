@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'fcde3ac53ef867c43ce94d1ea93367798641d0ae',
+    'reference' => '97b6233e9ea3a7d4f6f869fd8040a407409bf021',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'fcde3ac53ef867c43ce94d1ea93367798641d0ae',
+      'reference' => '97b6233e9ea3a7d4f6f869fd8040a407409bf021',
     ),
     'api-platform/core' => 
     array (
@@ -485,8 +485,8 @@
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '1.0.0',
+        0 => '1.0.0',
+        1 => '1.0',
       ),
     ),
     'psr/simple-cache-implementation' => 
@@ -869,6 +869,15 @@
       array (
       ),
       'reference' => 'fb29db31d6a1bb69271009c47ce19d59c6fef25a',
+    ),
+    'symfony/google-mailer' => 
+    array (
+      'pretty_version' => 'v4.4.25',
+      'version' => '4.4.25.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f1285c0b6c67a9e4874604bb2e58ffceae0600ee',
     ),
     'symfony/http-client' => 
     array (

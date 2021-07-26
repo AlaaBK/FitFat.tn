@@ -154,6 +154,6 @@ class __TwigTemplate_3343d6288d4bdc915aca7171a5a4bed6d528186e86c65eada67bdd51077
     </ul>
 </div>
 {% endblock %}
-", "restaurant/index.html.twig", "C:\\wamp64\\www\\FitFat\\templates\\restaurant\\index.html.twig");
+", "restaurant/index.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\templates\\restaurant\\index.html.twig");
     }
 }
