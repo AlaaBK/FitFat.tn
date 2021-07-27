@@ -12,6 +12,7 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
                     'App\\Entity\\Blog',
                     'App\\Entity\\Category',
                     'App\\Entity\\Commentaire',
+                    'App\\Entity\\Plates',
                     'App\\Entity\\Product',
                     'App\\Entity\\Restaurant',
                     'App\\Entity\\User',

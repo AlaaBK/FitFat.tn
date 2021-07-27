@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'c4a98debc993f9eba6e67b80cdcf5ec43b0bc2bd',
+    'reference' => '9084bf01c83eee372c3b3c95c42a7c8882cee63d',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'c4a98debc993f9eba6e67b80cdcf5ec43b0bc2bd',
+      'reference' => '9084bf01c83eee372c3b3c95c42a7c8882cee63d',
     ),
     'api-platform/core' => 
     array (
@@ -915,12 +915,12 @@
     ),
     'symfony/http-kernel' => 
     array (
-      'pretty_version' => 'v4.4.27',
-      'version' => '4.4.27.0',
+      'pretty_version' => 'v4.4.28',
+      'version' => '4.4.28.0',
       'aliases' => 
       array (
       ),
-      'reference' => '386fdb899c5c510d9d10a86b3ec4c11f597bf2fa',
+      'reference' => '7370efeb3ee5120c71d12f7a50b920305b2ae544',
     ),
     'symfony/inflector' => 
     array (
@@ -1333,12 +1333,12 @@
     ),
     'symfony/web-profiler-bundle' => 
     array (
-      'pretty_version' => 'v4.4.27',
-      'version' => '4.4.27.0',
+      'pretty_version' => 'v4.4.28',
+      'version' => '4.4.28.0',
       'aliases' => 
       array (
       ),
-      'reference' => '10db99e7507dcf39e7e62c12b9fcedd52506d26f',
+      'reference' => 'be142cf26bb81ff31f7a482c22b1e58b93719f00',
     ),
     'symfony/web-server-bundle' => 
     array (

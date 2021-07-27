@@ -575,6 +575,10 @@
       <tag name="doctrine.repository_service"/>
       <argument type="service" id="doctrine"/>
     </service>
+    <service id="App\Repository\PlatesRepository" class="App\Repository\PlatesRepository" autowire="true" autoconfigure="true">
+      <tag name="doctrine.repository_service"/>
+      <argument type="service" id="doctrine"/>
+    </service>
     <service id="App\Repository\ProductRepository" class="App\Repository\ProductRepository" autowire="true" autoconfigure="true">
       <tag name="doctrine.repository_service"/>
       <argument type="service" id="doctrine"/>
@@ -4451,7 +4455,7 @@
       <factory class="Doctrine\ORM\EntityManager" method="create"/>
     </service>
     <service id="doctrine.orm.container_repository_factory" class="Doctrine\Bundle\DoctrineBundle\Repository\ContainerRepositoryFactory" public="false">
-      <argument type="service" id=".service_locator.q_qGI3j"/>
+      <argument type="service" id=".service_locator..HTTbqM"/>
     </service>
     <service id="doctrine.orm.manager_configurator.abstract" class="Doctrine\Bundle\DoctrineBundle\ManagerConfigurator" abstract="true">
       <argument type="collection"/>
@@ -5796,6 +5800,8 @@
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="annotated_app_entity_blog_api_platform_core_bridge_doctrine_orm_filter_search_filter" type="service_closure" id="annotated_app_entity_blog_api_platform_core_bridge_doctrine_orm_filter_search_filter"/>
+        <argument key="annotated_app_entity_plates_api_platform_core_bridge_doctrine_orm_filter_order_filter" type="service_closure" id="annotated_app_entity_plates_api_platform_core_bridge_doctrine_orm_filter_order_filter"/>
+        <argument key="annotated_app_entity_plates_api_platform_core_bridge_doctrine_orm_filter_search_filter" type="service_closure" id="annotated_app_entity_plates_api_platform_core_bridge_doctrine_orm_filter_search_filter"/>
         <argument key="annotated_app_entity_product_api_platform_core_bridge_doctrine_orm_filter_search_filter" type="service_closure" id="annotated_app_entity_product_api_platform_core_bridge_doctrine_orm_filter_search_filter"/>
         <argument key="annotated_app_entity_restaurant_api_platform_core_bridge_doctrine_orm_filter_order_filter" type="service_closure" id="annotated_app_entity_restaurant_api_platform_core_bridge_doctrine_orm_filter_order_filter"/>
         <argument key="annotated_app_entity_restaurant_api_platform_core_bridge_doctrine_orm_filter_search_filter" type="service_closure" id="annotated_app_entity_restaurant_api_platform_core_bridge_doctrine_orm_filter_search_filter"/>
@@ -5804,6 +5810,8 @@
     <service id="api_platform.filter_collection_factory" class="ApiPlatform\Core\Api\FilterCollectionFactory" public="false">
       <argument type="collection">
         <argument>annotated_app_entity_blog_api_platform_core_bridge_doctrine_orm_filter_search_filter</argument>
+        <argument>annotated_app_entity_plates_api_platform_core_bridge_doctrine_orm_filter_search_filter</argument>
+        <argument>annotated_app_entity_plates_api_platform_core_bridge_doctrine_orm_filter_order_filter</argument>
         <argument>annotated_app_entity_product_api_platform_core_bridge_doctrine_orm_filter_search_filter</argument>
         <argument>annotated_app_entity_restaurant_api_platform_core_bridge_doctrine_orm_filter_search_filter</argument>
         <argument>annotated_app_entity_restaurant_api_platform_core_bridge_doctrine_orm_filter_order_filter</argument>
@@ -6664,6 +6672,32 @@
       <argument type="service" id="api_platform.identifiers_extractor.cached" on-invalid="ignore"/>
       <argument type="service" id="serializer.name_converter.metadata_aware" on-invalid="ignore"/>
     </service>
+    <service id="annotated_app_entity_plates_api_platform_core_bridge_doctrine_orm_filter_search_filter" class="ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter" public="false" autowire="true">
+      <tag name="api_platform.filter"/>
+      <argument type="service" id="doctrine"/>
+      <argument>null</argument>
+      <argument type="service" id="api_platform.iri_converter"/>
+      <argument type="service" id="property_accessor"/>
+      <argument type="service" id="monolog.logger" on-invalid="ignore"/>
+      <argument type="collection">
+        <argument key="description">partial</argument>
+        <argument key="nom">partial</argument>
+        <argument key="prix">partial</argument>
+      </argument>
+      <argument type="service" id="api_platform.identifiers_extractor.cached" on-invalid="ignore"/>
+      <argument type="service" id="serializer.name_converter.metadata_aware" on-invalid="ignore"/>
+    </service>
+    <service id="annotated_app_entity_plates_api_platform_core_bridge_doctrine_orm_filter_order_filter" class="ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\OrderFilter" public="false" autowire="true">
+      <tag name="api_platform.filter"/>
+      <argument type="service" id="doctrine"/>
+      <argument>null</argument>
+      <argument>order</argument>
+      <argument type="service" id="monolog.logger" on-invalid="ignore"/>
+      <argument type="collection">
+        <argument key="id">asc</argument>
+      </argument>
+      <argument type="service" id="serializer.name_converter.metadata_aware" on-invalid="ignore"/>
+    </service>
     <service id="annotated_app_entity_product_api_platform_core_bridge_doctrine_orm_filter_search_filter" class="ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter" public="false" autowire="true">
       <tag name="api_platform.filter"/>
       <argument type="service" id="doctrine"/>
@@ -6722,6 +6756,8 @@
     <service id=".abstract.instanceof.App\Repository\CategoryRepository" class="App\Repository\CategoryRepository" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepositoryInterface.0.App\Repository\CommentaireRepository" class="App\Repository\CommentaireRepository" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Repository\CommentaireRepository" class="App\Repository\CommentaireRepository" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepositoryInterface.0.App\Repository\PlatesRepository" class="App\Repository\PlatesRepository" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Repository\PlatesRepository" class="App\Repository\PlatesRepository" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepositoryInterface.0.App\Repository\ProductRepository" class="App\Repository\ProductRepository" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Repository\ProductRepository" class="App\Repository\ProductRepository" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepositoryInterface.0.App\Repository\RestaurantRepository" class="App\Repository\RestaurantRepository" autowire="true" abstract="true"/>
@@ -7265,12 +7301,13 @@
       <argument type="service" id="cache.doctrine.orm.default.result"/>
       <factory class="Doctrine\Common\Cache\Psr6\DoctrineProvider" method="wrap"/>
     </service>
-    <service id=".service_locator.q_qGI3j" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+    <service id=".service_locator..HTTbqM" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="App\Repository\BlogRepository" type="service_closure" id="App\Repository\BlogRepository"/>
         <argument key="App\Repository\CategoryRepository" type="service_closure" id="App\Repository\CategoryRepository"/>
         <argument key="App\Repository\CommentaireRepository" type="service_closure" id="App\Repository\CommentaireRepository"/>
+        <argument key="App\Repository\PlatesRepository" type="service_closure" id="App\Repository\PlatesRepository"/>
         <argument key="App\Repository\ProductRepository" type="service_closure" id="App\Repository\ProductRepository"/>
         <argument key="App\Repository\RestaurantRepository" type="service_closure" id="App\Repository\RestaurantRepository"/>
         <argument key="App\Repository\UserRepository" type="service_closure" id="App\Repository\UserRepository"/>
@@ -8131,7 +8168,7 @@
     <service id="api_platform.name_converter" alias="serializer.name_converter.metadata_aware"/>
     <service id="Symfony\Component\String\Slugger\SluggerInterface" alias="slugger"/>
     <service id=".service_locator.c3XszGA" alias="api_platform.serializer_locator" public="false"/>
-    <service id=".service_locator.Ao2IjEw" alias="api_platform.filter_locator" public="false"/>
+    <service id=".service_locator.a2gza1y" alias="api_platform.filter_locator" public="false"/>
     <service id=".service_locator.tHpW6v3" alias=".service_locator.Y7gDuDN" public="false"/>
     <service id="validator" alias="debug.validator" public="true"/>
     <service id="api_platform.metadata.property.metadata_factory.property_info.inner" alias="api_platform.metadata.property.metadata_factory.xml" public="false"/>
