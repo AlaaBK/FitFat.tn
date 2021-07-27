@@ -227,10 +227,6 @@ class __TwigTemplate_86f94c3766a4e9ee5d36644e226e1b41601efcfb1cf60b02d1856347e92
         </div>
     {% endif %}
 {% endblock %}
-<<<<<<< HEAD
-", "@WebProfiler/Collector/exception.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\exception.html.twig");
-=======
-", "@WebProfiler/Collector/exception.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\exception.html.twig");
->>>>>>> master
+", "@WebProfiler/Collector/exception.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\exception.html.twig");
     }
 }

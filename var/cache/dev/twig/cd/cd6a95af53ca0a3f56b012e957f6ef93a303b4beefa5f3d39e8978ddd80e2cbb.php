@@ -139,10 +139,6 @@ class __TwigTemplate_5bc6b719328d853ac0b426cbe0bb1692b95a33124e28de3d4b67b5bd59d
 
 </body>
 </html>
-<<<<<<< HEAD
-", "@ApiPlatform/Graphiql/index.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\Graphiql\\index.html.twig");
-=======
-", "@ApiPlatform/Graphiql/index.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\Graphiql\\index.html.twig");
->>>>>>> master
+", "@ApiPlatform/Graphiql/index.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\api-platform\\core\\src\\Bridge\\Symfony\\Bundle\\Resources\\views\\Graphiql\\index.html.twig");
     }
 }

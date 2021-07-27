@@ -227,10 +227,6 @@ class __TwigTemplate_44545690bb88b5fca87a839b127d9e0f1447e1ff7dd441ffab8d2ad3943
         </div>
     </form>
 </div>
-<<<<<<< HEAD
-", "@WebProfiler/Profiler/search.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\search.html.twig");
-=======
-", "@WebProfiler/Profiler/search.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\search.html.twig");
->>>>>>> master
+", "@WebProfiler/Profiler/search.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\search.html.twig");
     }
 }

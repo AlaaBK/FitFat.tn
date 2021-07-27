@@ -71,10 +71,6 @@ class __TwigTemplate_9eaceb788e4bbd844d26fbe808ad252858d171a7c8689d3addb0dd8937d
     public function getSourceContext()
     {
         return new Source("{% extends \"@email/zurb_2/notification/body.txt.twig\" %}
-<<<<<<< HEAD
-", "@email/default/notification/body.txt.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\twig-bridge\\Resources\\views\\Email\\default\\notification\\body.txt.twig");
-=======
-", "@email/default/notification/body.txt.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\twig-bridge\\Resources\\views\\Email\\default\\notification\\body.txt.twig");
->>>>>>> master
+", "@email/default/notification/body.txt.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\twig-bridge\\Resources\\views\\Email\\default\\notification\\body.txt.twig");
     }
 }

@@ -2352,10 +2352,6 @@ $context["attrvalue"] === false)) {
         {%- endif -%}
     {%- endfor -%}
 {%- endblock attributes -%}
-<<<<<<< HEAD
-", "form_div_layout.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\form_div_layout.html.twig");
-=======
-", "form_div_layout.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\form_div_layout.html.twig");
->>>>>>> master
+", "form_div_layout.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\form_div_layout.html.twig");
     }
 }

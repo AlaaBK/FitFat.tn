@@ -65,10 +65,6 @@ class __TwigTemplate_5442204d1207c2a073814a9763dc2aadce92f33a1dc70cede78511a7e4c
     {
         return new Source("<?php if (!empty(\$id)): ?>id=\"<?php echo \$view->escape(\$id) ?>\"<?php endif ?>
 <?php echo \$attr ? ' '.\$view['form']->block(\$form, 'attributes') : '' ?>
-<<<<<<< HEAD
-", "@Framework/Form/widget_container_attributes.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\widget_container_attributes.html.php");
-=======
-", "@Framework/Form/widget_container_attributes.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\widget_container_attributes.html.php");
->>>>>>> master
+", "@Framework/Form/widget_container_attributes.html.php", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\widget_container_attributes.html.php");
     }
 }

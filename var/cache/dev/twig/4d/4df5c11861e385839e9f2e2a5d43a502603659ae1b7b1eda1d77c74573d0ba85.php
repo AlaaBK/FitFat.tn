@@ -75,10 +75,6 @@ class __TwigTemplate_7be216e92f6c27d9faf11386c90edc87520e1e0b3619211c85013da8284
         <?php endforeach; ?>
     </ul>
 <?php endif ?>
-<<<<<<< HEAD
-", "@Framework/Form/form_errors.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_errors.html.php");
-=======
-", "@Framework/Form/form_errors.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_errors.html.php");
->>>>>>> master
+", "@Framework/Form/form_errors.html.php", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_errors.html.php");
     }
 }

@@ -1671,10 +1671,6 @@ class __TwigTemplate_7bf2ce902d1bb69ae84b87d8375db845b615c5951b6e8d0b12e7c0e2a54
         </tbody>
     </table>
 {% endmacro %}
-<<<<<<< HEAD
-", "@Doctrine/Collector/db.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\doctrine\\doctrine-bundle\\Resources\\views\\Collector\\db.html.twig");
-=======
-", "@Doctrine/Collector/db.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\doctrine\\doctrine-bundle\\Resources\\views\\Collector\\db.html.twig");
->>>>>>> master
+", "@Doctrine/Collector/db.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\doctrine\\doctrine-bundle\\Resources\\views\\Collector\\db.html.twig");
     }
 }

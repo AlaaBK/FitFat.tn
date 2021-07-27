@@ -83,10 +83,6 @@ class __TwigTemplate_6a5739c8704711cdc9f4b8ef849d9a04f695781687367ca6e9a0f77d4fe
 {{ status_code }} {{ status_text }}
 
 */
-<<<<<<< HEAD
-", "@Twig/Exception/error.js.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\error.js.twig");
-=======
-", "@Twig/Exception/error.js.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\error.js.twig");
->>>>>>> master
+", "@Twig/Exception/error.js.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\error.js.twig");
     }
 }

@@ -413,10 +413,6 @@ class __TwigTemplate_537a7e9f9cb527e0f85000997cf0133112c3388b219a4ef58d3725f9c40
         </div>
     {% endfor %}
 {% endblock %}
-<<<<<<< HEAD
-", "@Debug/Profiler/dump.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\debug-bundle\\Resources\\views\\Profiler\\dump.html.twig");
-=======
-", "@Debug/Profiler/dump.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\debug-bundle\\Resources\\views\\Profiler\\dump.html.twig");
->>>>>>> master
+", "@Debug/Profiler/dump.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\debug-bundle\\Resources\\views\\Profiler\\dump.html.twig");
     }
 }

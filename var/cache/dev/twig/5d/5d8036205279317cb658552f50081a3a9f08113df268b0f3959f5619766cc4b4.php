@@ -973,10 +973,6 @@ class Theme {
         return hash >>> 0;
     }
 }
-<<<<<<< HEAD
-", "@WebProfiler/Collector/time.js", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\time.js");
-=======
-", "@WebProfiler/Collector/time.js", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\time.js");
->>>>>>> master
+", "@WebProfiler/Collector/time.js", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\time.js");
     }
 }

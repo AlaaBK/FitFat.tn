@@ -63,10 +63,6 @@ class __TwigTemplate_2d5fcdca79c78172db1a5a06042cbd409c158a010e98865af9338792b61
     public function getSourceContext()
     {
         return new Source("<textarea <?php echo \$view['form']->block(\$form, 'widget_attributes') ?>><?php echo \$view->escape(\$value) ?></textarea>
-<<<<<<< HEAD
-", "@Framework/Form/textarea_widget.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\textarea_widget.html.php");
-=======
-", "@Framework/Form/textarea_widget.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\textarea_widget.html.php");
->>>>>>> master
+", "@Framework/Form/textarea_widget.html.php", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\textarea_widget.html.php");
     }
 }

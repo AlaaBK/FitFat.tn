@@ -538,10 +538,6 @@ col-sm-10
         </div>{#--#}
     </div>
 {%- endblock checkbox_row %}
-<<<<<<< HEAD
-", "bootstrap_4_horizontal_layout.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\bootstrap_4_horizontal_layout.html.twig");
-=======
-", "bootstrap_4_horizontal_layout.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\bootstrap_4_horizontal_layout.html.twig");
->>>>>>> master
+", "bootstrap_4_horizontal_layout.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\bootstrap_4_horizontal_layout.html.twig");
     }
 }

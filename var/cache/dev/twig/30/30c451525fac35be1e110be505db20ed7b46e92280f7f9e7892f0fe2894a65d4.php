@@ -63,10 +63,6 @@ class __TwigTemplate_49a1a5aebee3ec60c82f7434b0ea88104ad85225de49d86dfc21821d511
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->block(\$form, 'form_rows') ?>
-<<<<<<< HEAD
-", "@Framework/Form/repeated_row.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\repeated_row.html.php");
-=======
-", "@Framework/Form/repeated_row.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\repeated_row.html.php");
->>>>>>> master
+", "@Framework/Form/repeated_row.html.php", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\repeated_row.html.php");
     }
 }

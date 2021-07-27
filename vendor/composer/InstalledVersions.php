@@ -19,11 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-<<<<<<< HEAD
-    'reference' => '97b6233e9ea3a7d4f6f869fd8040a407409bf021',
-=======
-    'reference' => 'dec2c0435a77e5a39e9fbeffd4ea146eefdbef35',
->>>>>>> master
+    'reference' => '30d887564200b227cab75e80441a058fbcec3733',
     'name' => '__root__',
   ),
   'versions' => 
@@ -35,11 +31,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-<<<<<<< HEAD
-      'reference' => '97b6233e9ea3a7d4f6f869fd8040a407409bf021',
-=======
-      'reference' => 'dec2c0435a77e5a39e9fbeffd4ea146eefdbef35',
->>>>>>> master
+      'reference' => '30d887564200b227cab75e80441a058fbcec3733',
     ),
     'api-platform/core' => 
     array (
@@ -506,8 +498,8 @@ private static $installed = array (
     array (
       'provided' => 
       array (
-        0 => '1.0.0',
-        1 => '1.0',
+        0 => '1.0',
+        1 => '1.0.0',
       ),
     ),
     'psr/simple-cache-implementation' => 

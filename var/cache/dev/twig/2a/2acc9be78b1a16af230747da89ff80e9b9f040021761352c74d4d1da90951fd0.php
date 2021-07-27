@@ -199,10 +199,6 @@ Exception stack trace attached.
 {{ exception }}
 {% endif %}
 {% endblock %}
-<<<<<<< HEAD
-", "@email/zurb_2/notification/body.txt.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\twig-bridge\\Resources\\views\\Email\\zurb_2\\notification\\body.txt.twig");
-=======
-", "@email/zurb_2/notification/body.txt.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\twig-bridge\\Resources\\views\\Email\\zurb_2\\notification\\body.txt.twig");
->>>>>>> master
+", "@email/zurb_2/notification/body.txt.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\twig-bridge\\Resources\\views\\Email\\zurb_2\\notification\\body.txt.twig");
     }
 }

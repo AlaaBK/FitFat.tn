@@ -111,10 +111,6 @@ class __TwigTemplate_76ad4ad241551ef9aedc9ad717dc6e2665c0b8bdd0f636493d7a614d1e6
         Sfjs.loadToolbar('{{ token }}');
     })();
 /*]]>*/</script>
-<<<<<<< HEAD
-", "@WebProfiler/Profiler/toolbar_js.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\toolbar_js.html.twig");
-=======
-", "@WebProfiler/Profiler/toolbar_js.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\toolbar_js.html.twig");
->>>>>>> master
+", "@WebProfiler/Profiler/toolbar_js.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Profiler\\toolbar_js.html.twig");
     }
 }

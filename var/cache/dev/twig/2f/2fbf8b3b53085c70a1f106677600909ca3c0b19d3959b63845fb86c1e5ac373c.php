@@ -73,10 +73,6 @@ class __TwigTemplate_7d9b4a0210bd83d5693457910967c2a7c98f9fa12b06ac9706964a0e3bf
 <?php if (\$form_method !== \$method): ?>
     <input type=\"hidden\" name=\"_method\" value=\"<?php echo \$view->escape(\$method) ?>\" />
 <?php endif ?>
-<<<<<<< HEAD
-", "@Framework/Form/form_start.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_start.html.php");
-=======
-", "@Framework/Form/form_start.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_start.html.php");
->>>>>>> master
+", "@Framework/Form/form_start.html.php", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_start.html.php");
     }
 }

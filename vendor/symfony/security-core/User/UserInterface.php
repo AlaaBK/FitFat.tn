@@ -74,7 +74,6 @@ interface UserInterface
      */
     public function getUsername();
 
-
     /**
      * Removes sensitive data from the user.
      *

@@ -172,10 +172,6 @@ class __TwigTemplate_306bf903b139756d70ec8b05a3e30a36bcfabeb7739e2252d45110962b0
         <button type=\"submit\" class=\"btn\">Register</button>
     {{ form_end(registrationForm) }}
 {% endblock %}
-<<<<<<< HEAD
-", "registration/register.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\templates\\registration\\register.html.twig");
-=======
-", "registration/register.html.twig", "C:\\xampp\\htdocs\\FitFat\\templates\\registration\\register.html.twig");
->>>>>>> master
+", "registration/register.html.twig", "C:\\wamp64\\www\\FitFat\\templates\\registration\\register.html.twig");
     }
 }

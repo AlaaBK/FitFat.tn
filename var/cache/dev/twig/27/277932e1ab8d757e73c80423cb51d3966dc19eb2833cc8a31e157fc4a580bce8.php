@@ -189,10 +189,6 @@ class __TwigTemplate_08f60679b39ba42310f25bc11a6031140a61c8e14dbbbf41e5bbcd44038
 .timeline-graph .timeline-period {
     stroke-width: 0;
 }
-<<<<<<< HEAD
-", "@WebProfiler/Collector/time.css.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\time.css.twig");
-=======
-", "@WebProfiler/Collector/time.css.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\time.css.twig");
->>>>>>> master
+", "@WebProfiler/Collector/time.css.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\time.css.twig");
     }
 }

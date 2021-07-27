@@ -160,10 +160,6 @@ class __TwigTemplate_12e8eafc29d29e5688dc9d11b663058380734452099b3f00c579ce8e3eb
 
     {{ include('@WebProfiler/Profiler/toolbar_item.html.twig', { link: profiler_url, name: 'time', status: status_color }) }}
 {% endblock %}
-<<<<<<< HEAD
-", "@WebProfiler/Collector/memory.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\memory.html.twig");
-=======
-", "@WebProfiler/Collector/memory.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\memory.html.twig");
->>>>>>> master
+", "@WebProfiler/Collector/memory.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\memory.html.twig");
     }
 }

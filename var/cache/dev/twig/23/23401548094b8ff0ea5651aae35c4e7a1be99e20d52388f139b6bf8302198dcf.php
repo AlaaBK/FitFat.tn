@@ -212,10 +212,6 @@ class __TwigTemplate_7e15a09f374104b3f478bb7972576fc6c99613e384a71d04f35daaf3700
     {% endfor %}
     </tbody>
 </table>
-<<<<<<< HEAD
-", "@Twig/Exception/logs.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\logs.html.twig");
-=======
-", "@Twig/Exception/logs.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\logs.html.twig");
->>>>>>> master
+", "@Twig/Exception/logs.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\logs.html.twig");
     }
 }

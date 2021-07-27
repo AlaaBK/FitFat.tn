@@ -2080,10 +2080,6 @@ class __TwigTemplate_057c560ea6d7d8146dd8d80dd048a1a385e1a6aa3b194763c9266b26e85
         {{ tree.form_tree_details(childName, childData, forms_by_hash) }}
     {% endfor %}
 {% endmacro %}
-<<<<<<< HEAD
-", "@WebProfiler/Collector/form.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\form.html.twig");
-=======
-", "@WebProfiler/Collector/form.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\form.html.twig");
->>>>>>> master
+", "@WebProfiler/Collector/form.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\web-profiler-bundle\\Resources\\views\\Collector\\form.html.twig");
     }
 }

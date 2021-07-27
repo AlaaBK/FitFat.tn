@@ -69,10 +69,6 @@ class __TwigTemplate_689ef09b427100bab262867de54eb1b38a102498471fc7aba680120c197
     <?php \$attr['data-prototype'] = \$view->escape(\$view['form']->row(\$prototype)) ?>
 <?php endif ?>
 <?php echo \$view['form']->widget(\$form, ['attr' => \$attr]) ?>
-<<<<<<< HEAD
-", "@Framework/Form/collection_widget.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\collection_widget.html.php");
-=======
-", "@Framework/Form/collection_widget.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\collection_widget.html.php");
->>>>>>> master
+", "@Framework/Form/collection_widget.html.php", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\collection_widget.html.php");
     }
 }

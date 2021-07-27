@@ -63,10 +63,6 @@ class __TwigTemplate_d03289195e13259987fa8179ac728c765f5d7b1024a40b0d902d2b50ff5
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->block(\$form, 'form_widget_simple', ['type' => \$type ?? 'url']) ?>
-<<<<<<< HEAD
-", "@Framework/Form/url_widget.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\url_widget.html.php");
-=======
-", "@Framework/Form/url_widget.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\url_widget.html.php");
->>>>>>> master
+", "@Framework/Form/url_widget.html.php", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\url_widget.html.php");
     }
 }

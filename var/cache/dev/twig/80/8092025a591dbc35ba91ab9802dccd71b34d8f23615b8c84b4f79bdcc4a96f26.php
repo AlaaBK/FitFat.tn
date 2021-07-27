@@ -112,10 +112,6 @@ class __TwigTemplate_373e86b2f3b87e4615ae6f342fd34a65c7ce36a68d6baca6ab87a4fd359
     </exception>
 {% endfor %}
 </error>
-<<<<<<< HEAD
-", "@Twig/Exception/exception.xml.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\exception.xml.twig");
-=======
-", "@Twig/Exception/exception.xml.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\exception.xml.twig");
->>>>>>> master
+", "@Twig/Exception/exception.xml.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\twig-bundle\\Resources\\views\\Exception\\exception.xml.twig");
     }
 }

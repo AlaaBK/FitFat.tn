@@ -69,10 +69,6 @@ class __TwigTemplate_fc7a60d3e3bde2edd0929fc46691deb8e92bafb5c06fba5c9c1bfe38a65
 <?php echo \$view['form']->rest(\$form) ?>
 <?php endif ?>
 </form>
-<<<<<<< HEAD
-", "@Framework/Form/form_end.html.php", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_end.html.php");
-=======
-", "@Framework/Form/form_end.html.php", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_end.html.php");
->>>>>>> master
+", "@Framework/Form/form_end.html.php", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\framework-bundle\\Resources\\views\\Form\\form_end.html.php");
     }
 }

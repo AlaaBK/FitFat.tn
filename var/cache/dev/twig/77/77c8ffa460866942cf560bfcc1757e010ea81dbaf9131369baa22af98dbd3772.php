@@ -1543,10 +1543,6 @@ $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBl
         {% if form is not rootform %}</small>{% else %}</div>{% endif %}
     {%- endif %}
 {%- endblock form_errors %}
-<<<<<<< HEAD
-", "foundation_5_layout.html.twig", "C:\\wamp64\\www\\Final\\FitFat\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\foundation_5_layout.html.twig");
-=======
-", "foundation_5_layout.html.twig", "C:\\xampp\\htdocs\\FitFat\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\foundation_5_layout.html.twig");
->>>>>>> master
+", "foundation_5_layout.html.twig", "C:\\wamp64\\www\\FitFat\\vendor\\symfony\\twig-bridge\\Resources\\views\\Form\\foundation_5_layout.html.twig");
     }
 }
