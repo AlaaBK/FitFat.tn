@@ -11,14 +11,21 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
             'type' => [
                 $o[1],
             ],
+<<<<<<< HEAD
             'description' => [
                 'A visual identifier that represents this user.',
             ],
+=======
+>>>>>>> oussama
             'readable' => [
                 true,
             ],
             'writable' => [
+<<<<<<< HEAD
                 false,
+=======
+                true,
+>>>>>>> oussama
             ],
             'required' => [
                 false,

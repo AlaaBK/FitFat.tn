@@ -12,7 +12,11 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
                 'string',
             ],
             'length' => [
+<<<<<<< HEAD
                 255,
+=======
+                20,
+>>>>>>> oussama
             ],
             'precision' => [
                 null,

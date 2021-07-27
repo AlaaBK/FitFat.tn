@@ -11,7 +11,11 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
                 '/login',
             ],
             'name' => [
+<<<<<<< HEAD
                 'login',
+=======
+                'app_login',
+>>>>>>> oussama
             ],
         ],
     ],

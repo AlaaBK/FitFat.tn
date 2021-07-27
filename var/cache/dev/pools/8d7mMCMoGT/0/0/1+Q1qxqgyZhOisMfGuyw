@@ -1,3 +1,7 @@
 <?php //%5BC%5DApp%255CKernel
 
+<<<<<<< HEAD
 return [PHP_INT_MAX, 1627350775];
+=======
+return [PHP_INT_MAX, 1627329218];
+>>>>>>> oussama

@@ -12,7 +12,11 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
                 'string',
             ],
             'length' => [
+<<<<<<< HEAD
                 180,
+=======
+                50,
+>>>>>>> oussama
             ],
             'precision' => [
                 null,
@@ -20,9 +24,12 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
             'scale' => [
                 null,
             ],
+<<<<<<< HEAD
             'unique' => [
                 true,
             ],
+=======
+>>>>>>> oussama
         ],
         'Symfony\\Component\\Serializer\\Annotation\\Groups' => [
             'groups' => [

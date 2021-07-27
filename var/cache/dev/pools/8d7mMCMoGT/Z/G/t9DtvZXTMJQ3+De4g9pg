@@ -12,12 +12,35 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
             'repositoryClass' => [
                 'App\\Repository\\UserRepository',
             ],
+<<<<<<< HEAD
             'message' => [
                 2 => 'There is already an account with this email',
             ],
             'fields' => [
                 2 => [
                     'email',
+=======
+            'attributes' => [
+                1 => [
+                    'normalization_context' => [
+                        'groups' => [
+                            'user:read',
+                        ],
+                    ],
+                    'denormalization_context' => [
+                        'groups' => [
+                            'user:write',
+                        ],
+                    ],
+                ],
+            ],
+            'message' => [
+                2 => 'There is already an account with this username',
+            ],
+            'fields' => [
+                2 => [
+                    'username',
+>>>>>>> oussama
                 ],
             ],
             'groups' => [

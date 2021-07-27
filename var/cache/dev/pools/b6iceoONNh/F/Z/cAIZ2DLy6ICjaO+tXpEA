@@ -182,6 +182,19 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
             ],
             'attributes' => [
                 [
+<<<<<<< HEAD
+=======
+                    'normalization_context' => [
+                        'groups' => [
+                            'user:read',
+                        ],
+                    ],
+                    'denormalization_context' => [
+                        'groups' => [
+                            'user:write',
+                        ],
+                    ],
+>>>>>>> oussama
                     'pagination_items_per_page' => 12,
                     'input' => null,
                     'output' => null,

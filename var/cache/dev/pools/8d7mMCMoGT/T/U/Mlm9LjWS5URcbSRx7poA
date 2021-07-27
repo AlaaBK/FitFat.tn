@@ -1,3 +1,7 @@
 <?php //%5BC%5DApp%255CController%255CRegistrationController%2523__construct
 
+<<<<<<< HEAD
 return [PHP_INT_MAX, 1627350774];
+=======
+return [PHP_INT_MAX, 1627329217];
+>>>>>>> oussama
