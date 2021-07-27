@@ -35,7 +35,7 @@ class Blog
     private $createdBy;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="text")
      */
     private $content;
 
@@ -45,7 +45,7 @@ class Blog
     private $publique;
 
     /**
-     * @ORM\OneToMany(targetEntity=Commentaire::class, mappedBy="blogs")
+     * @ORM\OneToMany(targetEntity=Commentaire::class, mappedBy="blogs" , orphanRemoval=true)
      */
     private $commentaires;
 
