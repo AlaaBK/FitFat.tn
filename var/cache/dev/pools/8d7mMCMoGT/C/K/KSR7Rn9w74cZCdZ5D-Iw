@@ -1,7 +1,0 @@
-<?php //%5BC%5DSymfony%255CComponent%255CHttpKernel%255CKernel%2523__sleep
-
-<<<<<<< HEAD
-return [PHP_INT_MAX, 1627350775];
-=======
-return [PHP_INT_MAX, 1627329218];
->>>>>>> oussama
