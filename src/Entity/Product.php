@@ -1,13 +1,13 @@
 <?php
 
 namespace App\Entity;
-
 use ApiPlatform\Core\Annotation\ApiResource;
 use App\Repository\ProductRepository;
 use Doctrine\ORM\Mapping as ORM;
 use ApiPlatform\Core\Annotation\ApiFilter;
 use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter;
 use Symfony\Component\Serializer\Annotation\Groups;
+use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\OrderFilter;
 
 /**
  * @ApiResource(
@@ -16,8 +16,10 @@ use Symfony\Component\Serializer\Annotation\Groups;
  * @ORM\Entity(repositoryClass=ProductRepository::class)
  * @ApiFilter(SearchFilter::class, properties={
  *     "nom": "partial",
- *     "description": "partial",
+ *     "Category": "partial"
  * })
+ * @ApiFilter(
+ *    OrderFilter::class, properties={"id" : "asc"})
  */
 class Product
 
@@ -61,6 +63,11 @@ class Product
      * @Groups({"product:read", "product:write"})
      */
     private $Category;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $quantity;
 
 
 
@@ -125,6 +132,18 @@ class Product
     public function setImg(?string $img): self
     {
         $this->img = $img;
+
+        return $this;
+    }
+
+    public function getQuantity(): ?int
+    {
+        return $this->quantity;
+    }
+
+    public function setQuantity(?int $quantity): self
+    {
+        $this->quantity = $quantity;
 
         return $this;
     }
