@@ -1,3 +1,0 @@
-<?php //route_name_339491013b9b8c598ee023b3e71a691c
-
-return [PHP_INT_MAX, 'api_commentaires_get_item'];

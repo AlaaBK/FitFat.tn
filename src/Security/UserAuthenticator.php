@@ -20,6 +20,11 @@ use Symfony\Component\Security\Guard\Authenticator\AbstractFormLoginAuthenticato
 use Symfony\Component\Security\Guard\PasswordAuthenticatedInterface;
 use Symfony\Component\Security\Http\Util\TargetPathTrait;
 
+// own editing
+use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\Security\Core\Exception\AuthenticationException;
+
+
 class UserAuthenticator extends AbstractFormLoginAuthenticator implements PasswordAuthenticatedInterface
 {
     use TargetPathTrait;
@@ -48,13 +53,13 @@ class UserAuthenticator extends AbstractFormLoginAuthenticator implements Passwo
     public function getCredentials(Request $request)
     {
         $credentials = [
-            'username' => $request->request->get('username'),
+            'email' => $request->request->get('email'),
             'password' => $request->request->get('password'),
             'csrf_token' => $request->request->get('_csrf_token'),
         ];
         $request->getSession()->set(
             Security::LAST_USERNAME,
-            $credentials['username']
+            $credentials['email']
         );
 
         return $credentials;
@@ -67,24 +72,24 @@ class UserAuthenticator extends AbstractFormLoginAuthenticator implements Passwo
             throw new InvalidCsrfTokenException();
         }
 
-        $user = $this->entityManager->getRepository(User::class)->findOneBy(['username' => $credentials['username']]);
+        $user = $this->entityManager->getRepository(User::class)->findOneBy(['email' => $credentials['email']]);
 
         if (!$user) {
-            throw new UsernameNotFoundException('Username could not be found.');
+            throw new UsernameNotFoundException('Email could not be found.');
         }
-
         return $user;
     }
 
     public function checkCredentials($credentials, UserInterface $user)
     {
         return $this->passwordEncoder->isPasswordValid($user, $credentials['password']);
+        //return true;
     }
 
     /**
      * Used to upgrade (rehash) the user's password automatically over time.
      */
-    public function getPassword($credentials): ?string
+    public function getPassword($credentials): ? string
     {
         return $credentials['password'];
     }
@@ -95,8 +100,46 @@ class UserAuthenticator extends AbstractFormLoginAuthenticator implements Passwo
             return new RedirectResponse($targetPath);
         }
 
-        // For example : return new RedirectResponse($this->urlGenerator->generate('some_route'));
-        throw new \Exception('TODO: provide a valid redirect inside '.__FILE__);
+        //return new RedirectResponse($this->urlGenerator->generate('app_register'));
+        // throw new \Exception('TODO: provide a valid redirect inside '.__FILE__);
+
+        $response = new JsonResponse([
+            'code' => 200,
+            'email' => $request->request->get('email'),
+            'password' => $request->request->get('password'),
+            'token' => $request->request->get('_csrf_token'),
+            'url' => '/home'
+        ]);
+
+        return $response;
+
+        /* return $this->json([
+             'email' => $request->request->get('email'),
+             'password' => $request->request->get('password'),
+         ]);*/
+
+
+    }
+
+    // if login is failed:
+    public function onAuthenticationFailure( Request $request, AuthenticationException $exception )
+    {
+
+        /*$array = array( 'success' => false, 'message' => $exception->getMessage() ); // data to return via JSON
+        $response = new Response( json_encode( $array ) );
+        $response->headers->set( 'Content-Type', 'application/json' );
+
+        return $response;*/
+
+        $response = new JsonResponse([
+            'code' => 400,
+            'exception' => $exception->getMessage()
+        ]);
+
+        return $response;
+
+
+
     }
 
     protected function getLoginUrl()

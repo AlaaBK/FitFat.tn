@@ -11,53 +11,55 @@ use Symfony\Component\Serializer\Annotation\Groups;
 
 /**
  * @ORM\Entity(repositoryClass=UserRepository::class)
- * @ApiResource(
- *     normalizationContext={"groups"={"user:read"}},
- *     denormalizationContext={"groups"={"user:write"}}
- * )
- * @UniqueEntity(fields={"username"}, message="There is already an account with this username")
+ * @ApiResource
+ * @UniqueEntity(fields={"email"}, message="There is already an account with this email")
  */
-
 class User implements UserInterface
 {
     /**
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
-     * @Groups("user:read")
+     * @Groups({"user:read"})
      */
     private $id;
 
     /**
      * @ORM\Column(type="string", length=180, unique=true)
-     * @Groups({"user:read", "user:write"})
+     * @Groups({"user:read","user:write"})
      */
-    private $username;
+    private $email;
 
     /**
      * @ORM\Column(type="json")
      * @Groups({"user:read", "user:write"})
      */
-    private $roles = [];
+    private $roles;
 
     /**
      * @var string The hashed password
      * @ORM\Column(type="string")
-     * @Groups("user:write")
+     * @Groups({"user:read","user:write"})
      */
     private $password;
 
     /**
-     * @ORM\Column(type="string", length=50)
-     * @Groups({"user:read", "user:write"})
-     */
-    private $email;
-
-    /**
-     * @ORM\Column(type="string", length=20)
-     * @Groups({"user:read", "user:write"})
+     * @ORM\Column(type="string", length=255)
+     * @Groups({"user:read","user:write"})
      */
     private $name;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     * @Groups({"user:read","user:write"})
+     */
+    private $lastname;
+
+    /**
+     * @ORM\Column(type="text", nullable=true)
+     * @Groups({"user:read","user:write"})
+     */
+    private $adress;
 
     /**
      * @ORM\Column(type="boolean")
@@ -69,41 +71,33 @@ class User implements UserInterface
         return $this->id;
     }
 
-    /**
-     * A visual identifier that represents this user.
-     *
-     * @see UserInterface
-     */
-    public function getUsername(): string
+    public function getEmail(): ?string
     {
-        return (string) $this->username;
+        return $this->email;
     }
 
-    public function setUsername(string $username): self
+    public function setEmail(string $email): self
     {
-        $this->username = $username;
+        $this->email = $email;
 
         return $this;
     }
 
+
     /**
      * @see UserInterface
      */
-    public function getRoles(): array
+    public function getRoles()
     {
-        $roles = $this->roles;
-        // guarantee every user at least has ROLE_USER
-        $roles[] = 'ROLE_USER';
-
-        return array_unique($roles);
+        return $this->roles;
     }
 
-    public function setRoles(array $roles): self
+    public function setRoles($roles): void
     {
         $this->roles = $roles;
-
-        return $this;
     }
+
+
 
     /**
      * @see UserInterface
@@ -140,18 +134,6 @@ class User implements UserInterface
         // $this->plainPassword = null;
     }
 
-    public function getEmail(): ?string
-    {
-        return $this->email;
-    }
-
-    public function setEmail(string $email): self
-    {
-        $this->email = $email;
-
-        return $this;
-    }
-
     public function getName(): ?string
     {
         return $this->name;
@@ -160,6 +142,30 @@ class User implements UserInterface
     public function setName(string $name): self
     {
         $this->name = $name;
+
+        return $this;
+    }
+
+    public function getLastname(): ?string
+    {
+        return $this->lastname;
+    }
+
+    public function setLastname(string $lastname): self
+    {
+        $this->lastname = $lastname;
+
+        return $this;
+    }
+
+    public function getAdress(): ?string
+    {
+        return $this->adress;
+    }
+
+    public function setAdress(?string $adress): self
+    {
+        $this->adress = $adress;
 
         return $this;
     }
@@ -175,5 +181,14 @@ class User implements UserInterface
 
         return $this;
     }
-}
 
+    /**
+     * A visual identifier that represents this user.
+     *
+     * @see UserInterface
+     */
+    public function getUsername(): string
+    {
+        return (string) $this->email;
+    }
+}

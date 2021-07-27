@@ -62,6 +62,23 @@ class Restaurant
      */
     private $telephone;
 
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     * @Groups({"restaurant:read", "restaurant:write"})
+     */
+    private $image;
+
+    /**
+     * @ORM\OneToMany(targetEntity=Plates::class, mappedBy="Restaurant", orphanRemoval=true)
+     * @Groups({"restaurant:read", "restaurant:write"})
+     */
+    private $plates;
+
+    public function __construct()
+    {
+        $this->plates = new ArrayCollection();
+    }
+
     public function getId(): ?int
     {
         return $this->id;
@@ -111,6 +128,48 @@ class Restaurant
     public function setTelephone(int $telephone): self
     {
         $this->telephone = $telephone;
+
+        return $this;
+    }
+
+    public function getImage(): ?string
+    {
+        return $this->image;
+    }
+
+    public function setImage(?string $image): self
+    {
+        $this->image = $image;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Plates[]
+     */
+    public function getPlates(): Collection
+    {
+        return $this->plates;
+    }
+
+    public function addPlate(Plates $plate): self
+    {
+        if (!$this->plates->contains($plate)) {
+            $this->plates[] = $plate;
+            $plate->setRestaurant($this);
+        }
+
+        return $this;
+    }
+
+    public function removePlate(Plates $plate): self
+    {
+        if ($this->plates->removeElement($plate)) {
+            // set the owning side to null (unless already changed)
+            if ($plate->getRestaurant() === $this) {
+                $plate->setRestaurant(null);
+            }
+        }
 
         return $this;
     }
