@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '6d5b4a69a0210bdaaa316a47194e7538f6d6f50a',
+    'reference' => '68fac594358c46a4e5ad1609eb225ad71ac08412',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '6d5b4a69a0210bdaaa316a47194e7538f6d6f50a',
+      'reference' => '68fac594358c46a4e5ad1609eb225ad71ac08412',
     ),
     'api-platform/core' => 
     array (
