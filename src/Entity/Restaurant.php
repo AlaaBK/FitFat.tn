@@ -69,7 +69,7 @@ class Restaurant
     private $image;
 
     /**
-     * @ORM\OneToMany(targetEntity=Plates::class, mappedBy="Restaurant", orphanRemoval=true)
+     * @ORM\OneToMany(targetEntity=Plates::class, mappedBy="Restaurant", orphanRemoval=true )
      * @Groups({"restaurant:read", "restaurant:write"})
      */
     private $plates;

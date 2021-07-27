@@ -1,0 +1,3 @@
+<?php //route_name_77b58cdb75fe2670a29b568c78658ea5
+
+return [PHP_INT_MAX, 'api_plates_get_collection'];
